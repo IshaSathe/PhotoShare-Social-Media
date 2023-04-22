@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Trial Form with PHP</title>
+</head>
+<body>
+
+    <h1>Upload Pic</h1>
+    <form action="uploadingpic.php" method="post">
+        <label for="album">album:</label>
+        <input type="text" id="album" name="album" />
+        <br />
+        <label for="pic_url">pic url:</label>
+        <input type="text" id="pic_url" name="pic_url" />
+        <br />
+        <label for="caption">caption:</label>
+        <input type="text" id="caption" name="caption" />
+        <br />
+        <label for="tags">tags (space sperated):</label>
+        <input type="text" id="tags" name="tags" />
+        <br />
+        <input type="submit" value="upload" />
+    </form>
+
+</body>
+</html>
